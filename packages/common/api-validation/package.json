@@ -1,0 +1,17 @@
+{
+  "name": "@swann-stack/api-validation",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "@swann-stack/yup": "*",
+    "@swann-stack/moment": "*",
+    "atob": "2.1.2"
+  }
+}

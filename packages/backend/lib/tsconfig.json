@@ -1,0 +1,12 @@
+{
+  "extends": "../../../tsconfig.json",
+  "files": [],
+  "references": [
+    { "path": "./database-migrations" },
+    { "path": "./logger" },
+    { "path": "./sequelize-client" },
+    { "path": "./sequelize-models" },
+    { "path": "./sequelize-typescript" },
+    { "path": "./sequelize" }
+  ]
+}

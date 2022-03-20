@@ -1,0 +1,16 @@
+{
+  "name": "@swann-stack/uuid",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "@types/uuid": "^8.0.0",
+    "uuid": "^8.2.0"
+  }
+}

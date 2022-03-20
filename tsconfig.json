@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": false,
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "baseUrl": "./packages",
+    "paths": {
+      "@swann-stack/*": ["./*/src"]
+    },
+    "typeRoots": ["./node_modules/@types", "./packages/types"],
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "noImplicitAny": false
+  }
+}

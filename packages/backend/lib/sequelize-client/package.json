@@ -1,0 +1,17 @@
+{
+  "name": "@swann-stack/sequelize-client",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "@swann-stack/sequelize": "*",
+    "@swann-stack/sequelize-typescript": "*",
+    "@swann-stack/sequelize-models": "*"
+  }
+}

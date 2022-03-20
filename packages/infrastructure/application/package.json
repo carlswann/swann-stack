@@ -1,0 +1,23 @@
+{
+  "name": "@swann-stack/application-infrastructure",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn tsc -b ./tsconfig.json",
+    "predeploy": "yarn build && cdk --version && cdk bootstrap aws://$AWS_ACCOUNT_ID/$AWS_REGION --context stage=$STAGE",
+    "deploy": "cdk deploy --require-approval never --context stage=$STAGE \"*\""
+  },
+  "dependencies": {
+    "aws-cdk": "1.131.0",
+    "@aws-cdk/core": "1.131.0",
+    "@aws-cdk/aws-ec2": "1.131.0",
+    "@aws-cdk/aws-certificatemanager": "1.131.0",
+    "@aws-cdk/aws-route53-targets": "1.131.0",
+    "@aws-cdk/aws-elasticbeanstalk": "1.131.0",
+    "@aws-cdk/aws-route53": "1.131.0",
+    "@aws-cdk/aws-ssm": "1.131.0",
+    "@swann-stack/network-infrastructure": "*",
+    "@swann-stack/persistence-infrastructure": "*"
+  }
+}

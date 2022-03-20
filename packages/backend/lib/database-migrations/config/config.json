@@ -1,0 +1,43 @@
+{
+  "development": {
+    "use_env_variable": "DATABASE_URL",
+    "seederStorage": "sequelize",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "use_env_variable": "DATABASE_URL",
+    "seederStorage": "sequelize",
+    "dialect": "postgres"
+  },
+  "staging": {
+    "use_env_variable": "DATABASE_URL",
+    "seederStorage": "sequelize",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "seederStorage": "sequelize",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}

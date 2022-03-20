@@ -1,0 +1,5 @@
+{
+  "extends": "../../../tsconfig.json",
+  "files": [],
+  "references": [{ "path": "./lodash" }, { "path": "./moment" }, { "path": "./ts-essentials" }, { "path": "./uuid" }, { "path": "./yup" }]
+}

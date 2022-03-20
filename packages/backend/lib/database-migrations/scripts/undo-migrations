@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$STAGE" == "production" ]; then 
+  export NODE_ENV="$STAGE"
+elif [ "$STAGE" == "staging" ]; then 
+  export NODE_ENV="$STAGE"
+elif [ "$STAGE" == "test" ]; then 
+  export NODE_ENV="$STAGE"
+else 
+  export NODE_ENV="development"
+fi
+
+export DATABASE_URL=`aws --region=$AWS_REGION ssm get-parameter --name "/rr-api/$STAGE/global/DATABASE_URL" --output text --query Parameter.Value`
+yarn sequelize-cli --migrations-path ./src/migrations db:migrate:undo "$@"

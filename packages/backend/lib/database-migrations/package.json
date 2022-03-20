@@ -1,0 +1,21 @@
+{
+  "name": "@swann-stack/database-migrations",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b .",
+    "create:migration": "yarn sequelize-cli --migrations-path ./src/migrations migration:create --name ",
+    "deploy": "./scripts/run-migrations",
+    "undeploy": "./scripts/undo-migrations"
+  },
+  "dependencies": {
+    "@swann-stack/sequelize": "*"
+  },
+  "devDependencies": {
+    "sequelize-cli": "6.3.0"
+  }
+}

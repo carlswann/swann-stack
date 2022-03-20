@@ -1,0 +1,17 @@
+{
+  "extends": "../../../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "composite": true
+  },
+  "include": ["src"],
+  "references": [
+    {
+      "path": "../sequelize"
+    },
+    {
+      "path": "../sequelize-models"
+    }
+  ]
+}

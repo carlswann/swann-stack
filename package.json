@@ -1,0 +1,56 @@
+{
+  "private": true,
+  "name": "@swann-stack",
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "repository": "https://github.com/CarlSwann326/swann-stack.git",
+  "workspaces": [
+    "packages/backend/*",
+    "packages/backend/lib/*",
+    "packages/common/*",
+    "packages/common/lib/*",
+    "packages/infrastructure/*",
+    "packages/frontend/*",
+    "packages/frontend/lib/*"
+  ],
+  "scripts": {
+    "build": "yarn tsc -b ./packages/tsconfig.json",
+    "build:watch": "yarn build --watch",
+    "build:clean": "yarn clean:ts && yarn build",
+    "clean:ts": "yarn build --clean",
+    "start": "yarn workspace @swann-stack/nodejs-starter start",
+    "deploy": "yarn workspace @swann-stack/nodejs-starter deploy",
+    "undeploy": "yarn workspace @swann-stack/nodejs-starter undeploy",
+    "depcheck": "yarn workspaces run depcheck",
+    "prettier:check": "yarn prettier --check \"./packages/**/*.{js,ts,tsx,json}\"",
+    "prettier:fix": "yarn prettier --write \"./packages/**/*.{js,ts,tsx,json}\"",
+    "eslint:check": "yarn eslint --config .eslintrc.js \"./packages/**/*.{ts,tsx}\"",
+    "eslint:fix": "yarn eslint --fix --config .eslintrc.js \"./packages/**/*.{ts,tsx}\"",
+    "test": "STAGE=test LOG_LEVEL=silent jest --forceExit --logHeapUsage",
+    "test:ci": "yarn test --runInBand --ci backend && yarn test --ci frontend",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.7",
+    "@types/serverless": "1.78.39",
+    "jest": "26.1.0",
+    "ts-jest": "26.1.3",
+    "@babel/core": "~7.9.0",
+    "babel-jest": "~25.2.6",
+    "@typescript-eslint/eslint-plugin": "3.10.1",
+    "@typescript-eslint/parser": "3.10.1",
+    "serverless": "2.66.1",
+    "serverless-offline": "8.2.0",
+    "serverless-plugin-monorepo": "0.10.0",
+    "serverless-domain-manager": "5.1.5",
+    "eslint": "^7.7.0",
+    "prettier": "2.1.1",
+    "pretty-quick": "3.1.1",
+    "husky": "^7.0.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "jsonfile": "^6.0.1",
+    "core-js": "^3.6.5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@swann-stack/sequelize-typescript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "sequelize-typescript": "2.1.0",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "@swann-stack/ts-essentials": "*"
+  }
+}

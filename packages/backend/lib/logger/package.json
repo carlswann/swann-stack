@@ -1,0 +1,15 @@
+{
+  "name": "@swann-stack/logger",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "winston": "3.1.0"
+  }
+}

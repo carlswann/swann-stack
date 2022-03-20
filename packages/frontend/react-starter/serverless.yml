@@ -1,0 +1,4 @@
+nextJsApplication:
+  component: '@sls-next/serverless-component@3.6.0'
+  inputs:
+    domain: ['<change-me>', 'swann-stack.com']

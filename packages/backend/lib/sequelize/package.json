@@ -1,0 +1,19 @@
+{
+  "name": "@swann-stack/sequelize",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "@swann-stack/logger": "1.0.0",
+    "lodash": "4.17.20",
+    "sequelize": "6.5.1",
+    "sequelize-typescript": "2.1.0",
+    "pg": "8.0.3"
+  }
+}
