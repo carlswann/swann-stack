@@ -16,6 +16,6 @@
     "@swann-stack/sequelize": "*"
   },
   "devDependencies": {
-    "sequelize-cli": "6.3.0"
+    "sequelize-cli": "6.4.1"
   }
 }
