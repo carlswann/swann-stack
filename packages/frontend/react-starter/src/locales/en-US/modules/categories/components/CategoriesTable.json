@@ -1,0 +1,28 @@
+{
+  "columns": {
+    "id": {
+      "headerName": "Id"
+    },
+    "name": {
+      "headerName": "Name"
+    },
+    "parent": {
+      "headerName": "Parent"
+    },
+    "slug": {
+      "headerName": "Slug"
+    },
+    "status": {
+      "headerName": "Status",
+      "values": {
+        "draft": "Draft",
+        "empty": "Empty",
+        "published": "Published"
+      }
+    },
+    "actions": {
+      "headerName": "Actions",
+      "edit": "Edit"
+    }
+  }
+}

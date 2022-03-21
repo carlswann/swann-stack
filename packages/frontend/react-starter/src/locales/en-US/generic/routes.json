@@ -1,0 +1,51 @@
+{
+  "error": "Error fetching menu",
+  "base": {
+    "title": "Home"
+  },
+  "authentication": {
+    "title": "Authentication",
+    "login": {
+      "title": "Login"
+    }
+  },
+  "catalog": {
+    "title": "Catalog",
+    "caption": "Manage product information",
+    "products": {
+      "title": "Products"
+    },
+    "categories": {
+      "title": "Categories"
+    },
+    "tags": {
+      "title": "Tags",
+      "create": {
+        "title": "New Tag"
+      }
+    },
+    "import": {
+      "title": "Import",
+      "new": {
+        "title": "New products"
+      },
+      "update": {
+        "title": "Product updates"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "caption": "Perform pricing validation",
+    "validation": {
+      "title": "Validation"
+    }
+  },
+  "integration": {
+    "title": "Integration",
+    "caption": "Workflow and data type changes",
+    "attributes": {
+      "title": "Attributes"
+    }
+  }
+}

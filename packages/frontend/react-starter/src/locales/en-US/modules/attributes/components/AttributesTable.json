@@ -1,0 +1,40 @@
+{
+  "columns": {
+    "id": {
+      "headerName": "Id"
+    },
+    "name": {
+      "headerName": "Name"
+    },
+    "type": {
+      "headerName": "Type"
+    },
+    "group": {
+      "headerName": "Group"
+    },
+    "sequence": {
+      "headerName": "Sequence"
+    },
+    "required": {
+      "headerName": "Required",
+      "values": {
+        "true": "Yes",
+        "false": "No"
+      }
+    },
+    "defaultGlobal": {
+      "headerName": "Default Global",
+      "values": {
+        "true": "Yes",
+        "false": "No"
+      }
+    },
+    "options": {
+      "headerName": "Options"
+    },
+    "actions": {
+      "headerName": "Actions",
+      "edit": "Edit"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "columns": {
+    "id": {
+      "headerName": "Id"
+    },
+    "name": {
+      "headerName": "Name"
+    },
+    "active": {
+      "headerName": "Status",
+      "values": {
+        "true": "Active",
+        "false": "Inactive"
+      }
+    },
+    "actions": {
+      "headerName": "Actions",
+      "activate": "Activate",
+      "deactivate": "Deactivate"
+    }
+  }
+}

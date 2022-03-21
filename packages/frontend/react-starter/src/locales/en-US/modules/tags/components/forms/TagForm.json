@@ -1,0 +1,8 @@
+{
+  "title": "Create Tag",
+  "fields": {
+    "name": {
+      "label": "Name"
+    }
+  }
+}

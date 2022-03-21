@@ -1,0 +1,10 @@
+{
+  "googleSignInAction": "Sign in with Google",
+  "or": "OR",
+  "emailSignInTitle": "Sign in with Email address",
+  "emailSignInAction": "Sign in",
+  "form": {
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password"
+  }
+}
