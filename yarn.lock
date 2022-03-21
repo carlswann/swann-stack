@@ -6213,10 +6213,10 @@
     "@typescript-eslint/types" "5.15.0"
     eslint-visitor-keys "^3.0.0"
 
-"@vendia/serverless-express@4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@vendia/serverless-express/-/serverless-express-4.5.3.tgz#3c1631ebccea74ff9c14a37e2bdf14277d8d9a1e"
-  integrity sha512-EBBW1kt1A62FaSeQGh7jwzbii+3HVYDvKgMPpV76LCqJbgqMnyaRrgFQ26nSZ54iV4bh50eUmuSpSmJIZ6zq4w==
+"@vendia/serverless-express@4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@vendia/serverless-express/-/serverless-express-4.5.4.tgz#1a9528342b476eb273209bc794b534d855c92bd4"
+  integrity sha512-Ptrp8toFPv5Py3VNXRgiJp4XO7KTK992bM1ZrHjjfKJ8ThjJr87Hqs3UpeKHW12ABZ4e062NbDmgmY9NxsYR2w==
 
 "@vercel/nft@0.17.0":
   version "0.17.0"
@@ -8740,9 +8740,9 @@ core-js-pure@^3.8.1:
   integrity sha512-12VZfFIu+wyVbBebyHmRTuEE/tZrB4tJToWcwAMcsp3h4+sHR+fMJWbKpYiCRWlhFBq+KNyO8rIV9rTkeVmznQ==
 
 core-js@3.6.5, core-js@^3.19.2, core-js@^3.6.5:
-  version "3.19.2"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.19.2.tgz#ae216d7f4f7e924d9a2e3ff1e4b1940220f9157b"
-  integrity sha512-ciYCResnLIATSsXuXnIOH4CbdfgV+H1Ltg16hJFN7/v6OxqnFr/IFGeLacaZ+fHLAm0TBbXwNK9/DNBzBUrO/g==
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
+  integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
 
 core-util-is@1.0.2:
   version "1.0.2"
